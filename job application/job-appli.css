@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdeef7;
+}
+
+input, select, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#position {
+  margin: 20px;
+}
+
+
+input:focus, textarea:focus {
+  border-color: blue;
+  outline: none;
+}
+
+input:invalid, select:invalid,textarea:invalid {
+  border-color: red;
+  
+}
+
+input:valid, select:valid,textarea:valid {
+  border-color: green;
+  
+}
+
+button:hover {
+  background-color: blue;
+
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: yellow;
+  box-shadow: 0 0 5px 2px green;
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+  font-weight: bold;
+}
+
+input:first-of-type {
+  border-radius: 8px;
+}
+
+button {
+  background-color: green;
+  padding: 10px 100px;
+  border-radius: 4px;
+  outline: none;
+  color: white;
+  
+}
+

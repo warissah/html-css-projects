@@ -1,0 +1,34 @@
+body {
+  background-color:#f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+.color-box {
+  width:100px;
+  height:100px;
+  display: inline-block;
+  border-radius: 8px;
+  border: 5px solid black;
+}
+
+.color1 {
+  background-color: #db8080
+}
+
+.color2 {
+  background-color: rgb(153, 161, 132)
+}
+
+.color3 {
+  background-color: cyan
+}
+
+.color4 {
+  background-color: hsl(255,50%,20%)
+}
+
+.color5 {
+  background-color: #ecd1e5
+}

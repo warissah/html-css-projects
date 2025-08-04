@@ -1,0 +1,46 @@
+body {
+  background: rgb(226, 244, 249);
+  font-family: Monaco
+  
+}
+
+h1 {
+  text-align: center;
+  color: rgb(66, 124, 158)
+}
+.todo-list>li {
+  background-color: rgb(165, 203, 209);
+  border-radius: 12px;
+  margin: 10px 10px;
+  list-style: none;
+  padding: 10px;   
+}
+
+.sub-item {
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  color: rgb(15, 97, 212);
+}
+
+a:focus {
+  color: rgb(81, 106, 142);
+}
+a:hover {
+  color: rgb(49, 90, 147);
+}
+a:active {
+  color: rgb(8, 38, 81);
+}
+a:visited {
+  color: rgb(244, 248, 253);
+}

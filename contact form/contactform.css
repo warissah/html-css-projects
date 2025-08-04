@@ -1,0 +1,56 @@
+body {
+  background-color: skyblue;
+}
+
+h2 {
+  text-align: center;
+  font-style: normal;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  width: auto;
+  margin: 45px;
+  
+}
+
+label {
+  margin: 10px auto;
+  color: black;
+
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 10px auto;
+  max-width: 400px;
+  display: block;
+  
+}
+
+button {
+  background-color:
+   rgb(137, 232, 137);
+  border-radius: 10px ;
+  border: 1px;
+  padding: 10px;
+  font-size: 1.5em;
+  width: 50vw;
+  display: block;
+  margin: 30px auto;
+  color: white;
+
+}
+
+button:hover {
+  background-color: rgb(230, 230, 143);
+}
+
+button:active {
+  background-color: rgb(134, 255, 134);
+}

@@ -1,0 +1,50 @@
+body {
+  background-color:rosybrown;
+font-family: Arial, sans-serif;: Arial, sans-serif;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+}
+
+.business-card {
+  width: 300px;
+background-color:rgb(249, 200, 208);
+padding: 20px;
+margin-top: 100px;
+text-align: center;
+font-size: 16px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.profile-image {
+  max-width: 100%
+}
+#chat {
+  padding: 10px
+}
+#dont {
+  padding:10px
+}
+#git {padding: 10px}
+
+a {
+  text-decoration: none;
+  color: rgb(227, 66, 93); /* This will be the default color */
+}
+
+a:visited {
+  color: rgb(212, 56, 82);
+}
+
+a:active {
+  color: rgb(229, 171, 181);
+}
+
+a:hover {
+  color: rgb(112, 25, 40);
+}
